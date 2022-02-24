@@ -44,25 +44,23 @@
             }
         }
 
-        echo "<input type='text' name='mytext' id='mytext' value='$val';>";
+        echo "<textarea name='mytext' id='mytext' rows='4' cols='50' readonly='true';>$val</textarea>";
     ?>
     </form>
 
-	
-
     <button type="button" onclick='myFunction()'>Copy text</button>
 
-<script>
-    function myFunction() {
-    var mytext = document.getElementById("mytext");	
-	
-    mytext.select(); //select text field
-    
-    document.execCommand("copy");  //Copy text
-    
-    alert("Copied na, mamsh!");
-    }
-</script>
+	<script>
+		function myFunction() {
+		var mytext = document.getElementById("mytext");	
+		
+		mytext.select(); //select text field
+		
+		document.execCommand("copy");  //Copy text
+		
+		alert("Copied na, mamsh!");
+		}
+	</script>
 
 <br><br><img src='companylogo.png' class='companylogo' alt='GND Company Logo'> <!-- direct to repository -->
 

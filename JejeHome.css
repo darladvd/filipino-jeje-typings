@@ -1,0 +1,56 @@
+body {
+  margin: 50px;
+  background-image: url("jejebg.jpg");
+  background-repeat: no-repeat;
+  background-size: 2040px 1080px;
+}
+
+.jejelogo {
+  width: 700px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.companylogo {
+  width: 500px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"] {
+  width: 700px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #555;
+}
+
+.generatebtn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .generatebtn:hover {
+    background-color: #BA55D3;
+  }
+
+  .generatebtn:active {
+    background-color: #4B0082;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

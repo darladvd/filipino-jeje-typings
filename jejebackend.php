@@ -57,7 +57,7 @@
             }
         }
 
-        echo "<input type='text' name='mytext' id='mytext' value=$val>";
+        echo "<input type='text' name='mytext' id='mytext' value='$val';>";
     ?>
     </form>
 

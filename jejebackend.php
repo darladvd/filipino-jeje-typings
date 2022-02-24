@@ -12,7 +12,6 @@
 <body>
     <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
     <?php
-        echo "<h1> Hello </h1>";
         echo "<table align='center' cellpadding = '10'>";
         echo "<tr><td><p><button type='submit'>Generate</button></td></tr>";
         echo "</table>";
@@ -25,17 +24,17 @@
             switch ($generate)
             {
                 case 1:
-                  $val = "hi gusto kita matagal na. i rlly like ur personality and ur mindset. ipasa mo to sa 15 katao kung hindi magiging sasakyan ka. wag kang tumawa, yung kaibigan ko tricycle na";
-                  echo $val;
-                  break;
+                    $val = "hi gusto kita matagal na. i rlly like ur personality and ur mindset. ipasa mo to sa 15 katao kung hindi magiging sasakyan ka. wag kang tumawa, yung kaibigan ko tricycle na";
+                    echo $val;
+                    break;
                 case 2:
-                  $val = "Tandaan mo, alalahanin mo yung mga ano na inano ko kahapon . Kapag nakalimutan mo yung ano, maaano yung ano. Ano ? Hindi mo mainitndihan yung sinasabi ko? Hindi ka kasi nakikinig sa mga ano ko eh. Kaya naaano ka tuloy.";
-                  echo $val;
-                  break;
+                    $val = "Tandaan mo, alalahanin mo yung mga ano na inano ko kahapon . Kapag nakalimutan mo yung ano, maaano yung ano. Ano ? Hindi mo mainitndihan yung sinasabi ko? Hindi ka kasi nakikinig sa mga ano ko eh. Kaya naaano ka tuloy.";
+                    echo $val;
+                    break;
                 case 3:
-                  $val = "yeoboseyo ?? I mean hello 😣 *chuckles lightly* oh arasso, i mean okay ah .... ne, i mean yes. jinjjayo i mean really ... eheh ..mianhaeyo !!! I'M SORRY *frustated sigh* aish...ottoke i mean what do we do ?? arasso, i mean okay :3 see you annyeong, i mean bye";
-                  echo $val;
-                  break;
+                    $val = "yeoboseyo ?? I mean hello 😣 *chuckles lightly* oh arasso, i mean okay ah .... ne, i mean yes. jinjjayo i mean really ... eheh ..mianhaeyo !!! I'M SORRY *frustated sigh* aish...ottoke i mean what do we do ?? arasso, i mean okay :3 see you annyeong, i mean bye";
+                    echo $val;
+                    break;
                 case 5:
                     $val = "Pag ako UMIBIG.,. Pag ako UMIBIG😍💘 Malinaw pa sa TUBIG💦😋 Pag akoy NABIGO 💔😭💔Malabo pa Sa DUGO👊Matamis akong mag MAHAL💏💑Sweet parang ASUKAL😍😘💞Pero pag may KARIBAL😡👊💔para akong KRIMINAL👿🔫(99 percent) ka sa buhay ko 😘💓 (100 percent) ka sa puso ko😍😘💘";
                     echo $val;
@@ -71,7 +70,7 @@
     
     document.execCommand("copy");  //Copy text
     
-    document.getElementById("msg").innerHTML = "Copied";
+    alert("Copied na, mamsh!");
     }
 </script>
 </body>

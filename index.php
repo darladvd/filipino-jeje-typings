@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
  <head>
-	<title>Jeje Typings Generator</title>
+	<title>Filipino Jeje Typings Generator</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="JejeHome.css">
- </head>
+	<link rel="icon" type="x-icon" href="favicon.ico">
+</head>
  <body>
 	<img src='projectlogo.png' class='jejelogo' alt='Jeje Typings Logo'>
 	<form method="POST" action="jejebackend.php">
 
     <?php
 		echo "<center><button name='s' type='submit' class='generatebtn'>Generate
-		     <center><button type='button' class='generatebtn' onclick='myFunction()'>Copy</button>";
+		     <center><button type='button' class='generatebtn' onclick='copyPaste()'>Copy</button>";
 		echo "<br><br><br>";
         $val = "";
 
@@ -20,13 +21,12 @@
             $val = $_SESSION['val'];
         }
 
-
         echo "<textarea name='mytext' id='mytext' rows='4' cols='50' readonly='true';>$val</textarea>";
     ?>
     </form>
 
 	<script>
-		function myFunction() {
+		function copyPaste() {
 		var mytext = document.getElementById("mytext");
 
 		mytext.select(); //select text field

@@ -11,6 +11,7 @@
 
     <?php
 		echo "<center><button name='s' type='submit' class='generatebtn'>Generate</button>";
+		echo "<center><button type='button' class='generatebtn' onclick='myFunction()'>Copy</button>";
 		echo "<br><br><br>";
         $val = "";
 
@@ -24,21 +25,20 @@
     ?>
     </form>
 
-    <button type="button" onclick='myFunction()'>Copy text</button>
-
 	<script>
 		function myFunction() {
 		var mytext = document.getElementById("mytext");	
 		
 		mytext.select(); //select text field
 		
-		document.execCommand("copy");  //Copy text
+		document.execCommand("copy");//Copy text
 		
 		alert("Copied na, mamsh!");
 		}
 	</script>
 
-<br><br><img src='companylogo.png' class='companylogo' alt='GND Company Logo'> <!-- direct to repository -->
+<br><br>
+<a href="https://github.com/darladvd/filipino-jeje-typings/"><img src='companylogo.png' class='companylogo' alt='GND Company Logo'></a>
 
- </body>
+</body>
  </html>

@@ -45,5 +45,5 @@
             $_SESSION["val"] = $val;
         }
 
-        header('Location: Jejehome.php');
+        header('Location: index.php');
     ?>

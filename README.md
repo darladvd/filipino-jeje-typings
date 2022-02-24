@@ -1,10 +1,8 @@
 # filipino-jeje-typings
-made with jejeness by gnd
+made with jejeness by gnd (Marianne Buama, Darla David, and Dana Huang)
 
-This website autogenerates a sentence that you can use in commenting, replying, and sharing. 
-
+This website autogenerates a copypasta-inspired sentence ✍️ that 🚟 you 👈 can 😎 use 😭 in 😩😂 commenting, 💻💭 replying, and sharing.
 
 Messages by:
-
-https://docs.google.com/document/d/1HjhdQubANBoein8rdvG2rldAc0yeyv6VHeabdn9Fxbo/edit
+https://twitter.com/apathyysan/status/1496299200870780928
 https://twitter.com/cheesecakekpn/status/1442690719798362115

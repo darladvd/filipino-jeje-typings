@@ -2,7 +2,8 @@ body {
   margin: 50px;
   background-image: url("jejebg.jpg");
   background-repeat: no-repeat;
-  background-size: 2040px 1080px;
+  /* background-size: 2040px 1080px; */
+  background-size: 100vw 100vh;
 }
 
 .jejelogo {
